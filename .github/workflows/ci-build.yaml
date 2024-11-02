@@ -28,7 +28,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@latest  # Using latest version for compatibility
+        uses: actions/checkout@v3  # Explicitly specify the version
 
       - name: Install dependencies
         run: |
